@@ -15,7 +15,8 @@ def main():
 def menu():
     #menu accepts no arguments
     #  it outputs the menu and returns choice
-    pass
+    print("Welcome to the menu.")
+    return 1
 
 def get_range():
     #  this does something

@@ -8,10 +8,11 @@ The game ends when someone correctly guesses the number.
 ### Number Guessing Game Flowchart
 ```mermaid
 graph TD;
-  A-->B;
-  A-->C;
-  A-->D;
-  A-->E;
+  main-->menu;
+  main-->get_range;
+  main-->player_1;
+  main-->player_2;
+  main-->game_over;
 ```
 
 #### Function Diagrams

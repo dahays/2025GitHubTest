@@ -19,9 +19,9 @@ graph TD;
 
 | `main`    |               |  Hays     |
 | ------------------ | ------------- | ------------ |
-| `argument:none`    | takes input from the user for ____  |              |
-| ``     | calculates ______  | outputs ____             |
-| ``      | takes input for name ___ | returns total |
+| `argument:none`    | prompt the user with a menu  |              |
+| ``     | calls all functions based on the menu choice  | outputs the winner             |
+| ``      | returns nothing | '' |
 ***
 | `function name2`    |               |     author   |
 | ------------------ | ------------- | ------------ |

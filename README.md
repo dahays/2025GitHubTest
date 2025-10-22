@@ -5,7 +5,7 @@ Hays, Paco
 This is a menu driven number guessing game.  Two players will guess a number from 1 to the chosen value.
 The game ends when someone correctly guesses the number.
 
-### <program_name> Flowchart
+### Number Guessing Game Flowchart
 ```mermaid
 graph TD;
   A-->B;

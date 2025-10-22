@@ -1,8 +1,9 @@
-# Program Name
-Team member 1, Team member 2, Team member 3
+# Chapter 5 Team Project - Number Guessing Game
+Hays, Paco
 
-## <program_name> Description
-Here is where you describe what the program does
+## Number Guessing Game Description
+This is a menu driven number guessing game.  Two players will guess a number from 1 to the chosen value.
+The game ends when someone correctly guesses the number.
 
 ### <program_name> Flowchart
 ```mermaid

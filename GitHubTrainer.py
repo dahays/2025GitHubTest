@@ -129,9 +129,10 @@ def parker(arg):
     pass
     
 def logan_k(arg):
-    #  ____ accepts a ___ for arg
-    #  it does something
-    #  it returns something
+    #  Logan accepts "U MAD BRO?" for arg
+    #  it prints 
+    #  it returns 
+    print(logan_k)
     pass
     
 def allen(arg):

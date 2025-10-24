@@ -134,10 +134,11 @@ def parker(arg):
     pass
     
 def logan_k(arg):
-    #  ____ accepts a ___ for arg
-    #  it does something
-    #  it returns something
-    pass
+    #  Logan accepts "U MAD BRO?" for arg
+    #  it prints U MAD BRO?
+    #  it returns mad
+    mad = print(arg)
+    return mad
     
 def allen(arg): #67
     #  ____ accepts a ___ for arg

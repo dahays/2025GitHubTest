@@ -1,0 +1,6 @@
+def alex(band):
+    #alex accepts one arguement in the form a string "sleep token"
+    #it then prints
+    alex("sleep token")
+    
+    print(band)

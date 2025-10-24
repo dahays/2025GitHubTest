@@ -176,7 +176,7 @@ def bricen(arg):
     #  Bricen accepts ace for arg
     #  it does something
     #  it returns something
-    ldog = print(f"Logan's dog's name is {arg}")
+    ldog = print(f"Logan King's dog's name is {arg}")
     return ldog
     
 def alex(arg):

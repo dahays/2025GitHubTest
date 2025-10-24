@@ -110,9 +110,10 @@ def brody(arg):
     pass
     
 def cohen(arg):
-    #  ____ accepts a ___ for arg
+    #  cohen accepts a string for arg
     #  it does something
     #  it returns something
+    print('Hello ', arg, format('!'), sep='')
     pass
     
 def gage(arg):

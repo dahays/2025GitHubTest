@@ -130,11 +130,14 @@ def logan_k(arg):
     #  it returns something
     pass
     
-def allen(arg):
+def allen(arg): #67
     #  ____ accepts a ___ for arg
     #  it does something
     #  it returns something
-    pass
+    print("The topic is", arg)
+    print("The", arg, "meme traces back to a drill rap song by Philadelphia rapper Skrilla,")
+    print("which features the lyric", arg, "in its chorus.")    
+
     
 def logan_m(arg):
     #  ____ accepts a ___ for arg

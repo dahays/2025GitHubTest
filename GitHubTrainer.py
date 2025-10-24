@@ -177,10 +177,11 @@ def tristan(arg):
     pass
     
 def bricen(arg):
-    #  ____ accepts a ___ for arg
+    #  Bricen accepts ace for arg
     #  it does something
     #  it returns something
-    pass
+    ldog = print(f"Logan's dog's name is {arg}")
+    return ldog
     
 def alex(arg):
     #  ____ accepts a ___ for arg

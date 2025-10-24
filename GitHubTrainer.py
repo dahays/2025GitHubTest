@@ -81,15 +81,17 @@ def menu():
     
 def oliver(arg):
     #  ____ accepts a ___ for arg
-    #  it does something
-    #  it returns something
+    #  prints test
+    #  it returns somtehing
+    
     pass
     
 def henry(arg):
-    #  ____ accepts a ___ for arg
+    #  henry accepts a 2 for arg
     #  it does something
     #  it returns something
-    pass
+    print('test')
+    
     
 def tate(arg):
     #  tate accepts a string for arg

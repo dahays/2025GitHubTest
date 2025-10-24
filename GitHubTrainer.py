@@ -130,10 +130,10 @@ def parker(arg):
     
 def logan_k(arg):
     #  Logan accepts "U MAD BRO?" for arg
-    #  it prints 
-    #  it returns 
-    print(logan_k)
-    pass
+    #  it prints U MAD BRO?
+    #  it returns mad
+    mad = print(arg)
+    return mad
     
 def allen(arg):
     #  ____ accepts a ___ for arg

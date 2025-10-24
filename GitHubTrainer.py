@@ -92,7 +92,7 @@ def tate(arg):
     #  ____ accepts a ___ for arg
     #  it does something
     #  it returns something
-    print(arg)
+    pass
     
     
 def brody(arg):

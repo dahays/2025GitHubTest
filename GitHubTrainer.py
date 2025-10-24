@@ -4,7 +4,7 @@ def main():
     #  the returnes value to call each function
     
     choice = menu()
-    while choice < 0 or choice > 19:
+    while choice > 0 or choice < 19:
         if choice == 1:
             oliver(5)
         elif choice == 2:

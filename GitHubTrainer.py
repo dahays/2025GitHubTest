@@ -78,14 +78,16 @@ def menu():
     
 def oliver(arg):
     #  ____ accepts a ___ for arg
-    #  it does something
-    #  it returns something
+    #  prints test
+    #  it returns henry
+    
     pass
     
 def henry(arg):
-    #  ____ accepts a ___ for arg
+    #  henry accepts a 2 for arg
     #  it does something
     #  it returns something
+    print('test')
     pass
     
 def tate(arg):

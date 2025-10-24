@@ -136,11 +136,41 @@ def allen(arg):
     #  it returns something
     pass
     
-def logan_m(arg):
-    #  ____ accepts a ___ for arg
-    #  it does something
-    #  it returns something
-    pass
+def logan_m(genre: str) -> None:
+    # genre  accepts a _string__ for arg
+    #  for each genre it will open a wiki page of a artist for that genre
+    # returns nothing 
+    import random
+    from selenium import webdriver
+    
+    genre = genre.lower()
+    
+    if 'jazz' in genre:
+        # jazz artists
+        print('Can\'t find any artists.')
+    elif 'rap' in genre:
+        # rap artists
+        print('This kinda stinks')
+    elif 'rock' in genre:
+        # rock bands/groups/artist
+        rock_bands = ['aerosmith+rock+band','guns+n+roses', 'acdc+band', 'smashing+pumpkins+band','fu+fighters', 'nirvana+band', 'weezer+band']
+        # google search query
+        GOOGLE_SEARCH_QUERY = 'https://google.com/search?q='
+        
+        # choose random band
+        band = random.choice(rock_bands)
+        
+        # create webdriver instance
+        driver = webdriver.Edge()
+        
+        # create url
+        query = GOOGLE_SEARCH_QUERY + band
+        
+        # open url
+        driver.get(query)
+        driver.maximize_window()
+        
+        
     
 def roman(arg):
     #  ____ accepts a ___ for arg

@@ -92,10 +92,15 @@ def henry(arg):
     pass
     
 def tate(arg):
-    #  ____ accepts a ___ for arg
-    #  it does something
-    #  it returns something
-    pass
+    #  tate accepts a string for arg
+    #  prints "I am Tate!" and the arg
+    #  returns a string
+    print('I am Tate!')
+    likes_money = print(f"I love {arg}!")
+    print("Adios!")
+    
+    return likes_money
+    
     
     
 def brody(arg):

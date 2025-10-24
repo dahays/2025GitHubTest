@@ -143,10 +143,10 @@ def logan_m(arg):
     pass
     
 def roman(arg):
-    #  ____ accepts a ___ for arg
-    #  it does something
-    #  it returns something
-    pass
+    #  roman accepts 1 arguement
+    #  it prints whatever your arguement was
+    #  it returns your input as a message
+    print(str(arg, "hi"))
     
 def sam(arg):
     #  ____ accepts a ___ for arg

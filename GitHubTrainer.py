@@ -113,12 +113,13 @@ def gage(arg):
     #  it returns something
     pass
     
-def gabe(axis):
-    #  gabe accepts a string for arg
+def gabe(arg):
+    #  gabe accepts a string book for arg
     #  it does something
     #  it returns something
-    axis = input('Please input the word book: ')
-    return axis
+    print('creature feature featuring... the newest creature: ')
+    print(arg)
+    
 def parker(arg):
     #  ____ accepts a ___ for arg
     #  it does something

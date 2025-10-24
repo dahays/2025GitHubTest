@@ -79,7 +79,7 @@ def menu():
 def oliver(arg):
     #  ____ accepts a ___ for arg
     #  prints test
-    #  it returns henry
+    #  it returns somtehing
     
     pass
     
@@ -88,7 +88,7 @@ def henry(arg):
     #  it does something
     #  it returns something
     print('test')
-    pass
+    
     
 def tate(arg):
     #  ____ accepts a ___ for arg

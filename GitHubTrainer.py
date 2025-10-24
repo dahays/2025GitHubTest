@@ -4,7 +4,7 @@ def main():
     #  the returnes value to call each function
     
     choice = menu()
-    while choice < 0 or choice > 19:
+    while choice > 0 or choice < 19:
         if choice == 1:
             oliver(5)
         elif choice == 2:
@@ -92,7 +92,8 @@ def tate(arg):
     #  ____ accepts a ___ for arg
     #  it does something
     #  it returns something
-    pass
+    print(arg)
+    
     
 def brody(arg):
     #  ____ accepts a ___ for arg

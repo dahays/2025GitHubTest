@@ -4,7 +4,7 @@ def main():
     #  the returnes value to call each function
     
     choice = menu()
-    while choice > 0 or choice < 19:
+    while choice in range(1, 20):
         if choice == 1:
             oliver(5)
         elif choice == 2:
@@ -43,6 +43,8 @@ def main():
             alex("sleep token")
         elif choice == 19:
             rhett("MCU")
+        else:
+            print("Goodbye!")
         choice = menu()
     
     
@@ -51,6 +53,7 @@ def menu():
     #  it presents the user with a list of choices
     #  and returns the chosen menu choice
     
+    input("Press enter to continue...")
     print("Please choose from the following choices:")
     print("1.  Oliver")
     print("2.  Henry")
@@ -97,6 +100,7 @@ def tate(arg):
     print("Adios!")
     
     return likes_money
+    
     
     
 def brody(arg):
@@ -178,10 +182,11 @@ def tristan(arg):
     pass
     
 def bricen(arg):
-    #  ____ accepts a ___ for arg
+    #  Bricen accepts ace for arg
     #  it does something
     #  it returns something
-    pass
+    ldog = print(f"Logan's dog's name is {arg}")
+    return ldog
     
 def alex(arg):
     #  ____ accepts a ___ for arg

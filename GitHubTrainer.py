@@ -122,10 +122,12 @@ def gage(arg):
     pass
     
 def gabe(arg):
-    #  ____ accepts a ___ for arg
+    #  gabe accepts a string book for arg
     #  it does something
     #  it returns something
-    pass
+    print('creature feature featuring... the newest creature: ')
+    print(arg)
+    
     
 def parker(arg):
     #  ____ accepts a ___ for arg

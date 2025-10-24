@@ -98,7 +98,11 @@ def brody(arg):
     #  ____ accepts a ___ for arg
     #  it does something
     #  it returns something
-    pass
+    arg = 2.5
+    num = int(input('What number do you want to multiply'))
+    final = num * arg
+    print('Your number is,', format(final, ',.2f'), sep='')
+    return final
     
 def cohen(arg):
     #  ____ accepts a ___ for arg

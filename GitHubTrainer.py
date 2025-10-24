@@ -170,7 +170,16 @@ def tristan(arg):
     #  ____ accepts a ___ for arg
     #  it does something
     #  it returns something
-    pass
+    print("Answer the question with yes or no")
+    print()
+    print("--------------------------------------")
+    function = int(input("Do you like to code?: "))
+    if function == Yes or yes:
+        print("That's cool!")
+    else:
+        print("You have been banned from using this software!")
+        
+    return arg
     
 def bricen(arg):
     #  ____ accepts a ___ for arg

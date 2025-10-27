@@ -135,9 +135,9 @@ def parker(arg):
     
 def logan_k(arg):
     #  Logan accepts "U MAD BRO?" for arg
-    #  it prints U MAD BRO?
+    #  it prints ARE U MAD BRO?
     #  it returns mad
-    mad = print(arg)
+    mad = print('ARE' , arg)
     return mad
     
 def allen(arg): #67

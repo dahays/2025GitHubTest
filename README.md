@@ -1,5 +1,5 @@
 # Chapter 5 Team Project - Number Guessing Game
-Hays, Paco
+Hays
 
 ## Number Guessing Game Description
 This is a menu driven number guessing game.  Two players will guess a number from 1 to the chosen value.
@@ -29,3 +29,14 @@ graph TD;
 | `guess:integer`     | calculates ______  | outputs ____             |
 | ``      | takes input for name ___ | returns total |
 ***
+
+#### UML Tables
+***
+|    'Class name'                        |
+| -------------------------------------- |
+|    '- attribute 1'                     |
+|    '- attribute 2'                     |
+| -------------------------------------- |
+|    '+ method 1 : data type returned'   |
+|    '+ method 2' : data type returned'  |
+| -------------------------------------- |

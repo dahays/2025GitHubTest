@@ -116,11 +116,13 @@ def cohen(arg):
     pass
     
 def gage(arg):
-    #  ____ accepts a ___ for arg
-    #  it does something
-    #  it returns something
-    pass
+    #  gage accepts 123 for arg
+    #  it multiplys it
+    #  it returns it
+    printv = (arg * 3000)
+    print(printv)
     
+    return printv
 def gabe(arg):
     #  ____ accepts a ___ for arg
     #  it does something

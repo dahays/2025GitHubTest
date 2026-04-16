@@ -193,10 +193,12 @@ def bricen(arg):
     return ldog
     
 def alex(arg):
-    #  ____ accepts a ___ for arg
-    #  it does something
-    #  it returns something
-    pass
+    # accepts an argument (arg)
+    # it asks for a number and prints arg that many times
+    num = int(input("Enter a number: "))
+    for i in range(num):
+        print(arg)
+    return
     
 def rhett(arg):
     #  ____ accepts a ___ for arg
